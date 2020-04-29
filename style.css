@@ -1,11 +1,21 @@
+body {
+  font-family: oswald, sans-serif;
+  background-color: grey;
+  
+}
+
 #header-img {
   width: 200px;
+  background-color: ;
+  opacity: 
+  
 }
 
 header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 
   
 }
@@ -14,11 +24,28 @@ ul {
   list-style: none;
   display: flex;
   justify-content: flex-end;
+  text-indent: 3em;
+  
   
 }
 
 #nav-bar {
   display: flex;
-  justify-content: flex-end;
+  padding-right: 100px;
+  font-weight: 400;
+  font-size: 22px;
+}
 
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+#heading {
+  text-align: center;
+  font-weight: 400;
 }
