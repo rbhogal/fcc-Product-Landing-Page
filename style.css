@@ -6,8 +6,7 @@ body {
 
 #header-img {
   width: 200px;
-  
-  
+   
 }
 
 header {
@@ -48,3 +47,17 @@ a:visited {
   text-align: center;
   font-weight: 400;
 }
+
+#about {
+  text-align: center;
+  font-weight: 400;
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  
+  
+}
+
