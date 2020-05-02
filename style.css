@@ -48,6 +48,10 @@ a:visited {
   font-weight: 400;
 }
 
+#sub-heading {
+  text-align: center;
+}
+
 #about {
   text-align: center;
   font-weight: 400;
