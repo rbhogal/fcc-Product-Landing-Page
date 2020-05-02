@@ -57,12 +57,15 @@ a:visited {
   text-align: center;
   
 }
+.about-font-headings {
+  font-weight:500;
+}
+
 
 #images {
   display: flex;
   justify-content: center;
   padding: 25px;
-  
   
 }
 
