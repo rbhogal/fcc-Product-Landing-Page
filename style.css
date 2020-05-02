@@ -71,6 +71,8 @@ a:visited {
 
 #video {
   display: inline-block;
+  padding: 25px;
+
 }
 
 #video-container {
