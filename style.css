@@ -94,6 +94,8 @@ a:visited {
 
 #submit {
   margin: 10px;
+  border-radius: 2px;
+  font-family: oswald, sans-serif;
 }
 
 #contact {
