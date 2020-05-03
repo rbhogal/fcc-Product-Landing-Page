@@ -92,6 +92,10 @@ a:visited {
   flex-direction: column;
 }
 
+#submit {
+  padding: 10px;
+}
+
 #contact {
   text-align: center;
   padding: 50px;
