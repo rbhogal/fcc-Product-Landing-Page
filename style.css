@@ -58,9 +58,7 @@ a:visited {
 }
 
 #about {
-  text-align: center;
-  padding-top: 100px;
-  
+  text-align: center; 
 }
 .about-font-headings {
   font-weight:500;
