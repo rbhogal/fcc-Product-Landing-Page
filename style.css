@@ -79,25 +79,27 @@ a:visited {
   text-align: center; 
 }
 
-#email {
-  width: 375px;
-  font-family: oswald, sans-serif;
+#contact {
   text-align: center;
+  padding: 50px;
+}
 
+#submit {
+  margin: 10px;
+  background-color: #FFE000;
+  border: none;
+  padding: 5px;
 }
 
 #form {
   display: flex;
   align-items: center;
   flex-direction: column;
+   
 }
 
-#submit {
-  margin: 10px;
-  background-color: #FFE000;
-}
-
-#contact {
+#email {
+  width: 375px;
+  font-family: oswald, sans-serif;
   text-align: center;
-  padding: 50px;
 }
