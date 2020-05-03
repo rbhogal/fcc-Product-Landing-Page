@@ -79,11 +79,19 @@ a:visited {
   text-align: center; 
 }
 
-#contact {
-  text-align: center;
+#email {
+  width: 500px;
+  font-family: oswald, sans-serif;
+
 }
 
 #form {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#contact {
+  text-align: center;
+  padding: 50px;
 }
