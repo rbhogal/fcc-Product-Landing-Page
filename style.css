@@ -82,3 +82,8 @@ a:visited {
 #contact {
   text-align: center;
 }
+
+#form {
+  display: flex;
+  justify-content: center;
+}
