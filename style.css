@@ -9,12 +9,15 @@ body {
    
 }
 
-header {
+#header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
+  position: fixed;
+  top: 0;
+  background-color: grey;
+  width: 100%;
   
 }
 
@@ -23,13 +26,13 @@ ul {
   display: flex;
   justify-content: flex-end;
   text-indent: 3em;
+  padding-right: 3em;
   
   
 }
 
 #nav-bar {
   display: flex;
-  padding-right: 100px;
   font-weight: 400;
   font-size: 22px;
 }
@@ -46,6 +49,7 @@ a:visited {
 #heading {
   text-align: center;
   font-weight: 500;
+  padding-top: 125px;
 }
 
 #sub-heading {
@@ -88,8 +92,9 @@ a:visited {
   margin: 10px;
   background-color: #FFE000;
   border: none;
-  padding: 5px;
+  padding: 7px;
 }
+
 
 #form {
   display: flex;
@@ -99,7 +104,9 @@ a:visited {
 }
 
 #email {
-  width: 375px;
+  width: 390px;
+  padding: 5px;
   font-family: oswald, sans-serif;
   text-align: center;
+  border: none;
 }
