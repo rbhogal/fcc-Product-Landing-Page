@@ -87,6 +87,7 @@ a:visited {
 #video-container {
   display: flex;
   justify-content: center;
+  max-width: 1732px;
 }
 
 #contact {
