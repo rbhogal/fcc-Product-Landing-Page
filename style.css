@@ -74,7 +74,8 @@ a:visited {
 #images {
   display: flex;
   justify-content: center;
-  padding: 25px;  
+  padding: 25px; 
+  max-width: 1732px; 
 }
 
 #video {
@@ -87,7 +88,6 @@ a:visited {
 #video-container {
   display: flex;
   justify-content: center;
-  max-width: 1732px;
 }
 
 #contact {
