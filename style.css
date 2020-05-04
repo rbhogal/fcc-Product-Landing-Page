@@ -2,7 +2,11 @@ html {
   background-color: black;
 }
 
-main, body {
+main {
+  width:100%;
+}
+
+body {
   font-family: oswald, sans-serif;
   background-color: grey;
   margin: 0;
@@ -30,7 +34,6 @@ ul {
   justify-content: flex-end;
   text-indent: 3em;
   padding-right: 3em;
-  
   
 }
 
