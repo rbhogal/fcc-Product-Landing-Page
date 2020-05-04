@@ -86,8 +86,9 @@ a:visited {
 }
 
 #video-container {
-  text-align: center; 
-  width: 100%
+  text-align: center;
+  width: 100%;
+  margin: 0 auto; 
 }
 
 #contact {
