@@ -1,11 +1,15 @@
 html {
   background-color: black;
+  margin: 0;
+  height: 100%
 }
 
 body {
   font-family: oswald, sans-serif;
   background-color: grey;
   margin: 0;
+  height: 100%
+
   
 }
 
