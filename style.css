@@ -1,15 +1,12 @@
 html {
-  background-color: black;
-}
-
-main {
-  width:100%;
+  background-color: black;  
 }
 
 body {
   font-family: oswald, sans-serif;
   background-color: grey;
   margin: 0;
+  
 }
 
 #header-img {
@@ -34,6 +31,7 @@ ul {
   justify-content: flex-end;
   text-indent: 3em;
   padding-right: 3em;
+  
   
 }
 
@@ -71,56 +69,90 @@ a:visited {
   font-weight:500;
 }
 
+
 #images {
   display: flex;
   justify-content: center;
-  padding: 25px; 
+  padding: 25px;  
 }
 
 #video {
-  display: flex;
-  justify-content: center;
-  padding: 50px 0px; 
-
+  display: inline-block;
+  padding: 50px 0px;
 }
 
 #video-container {
+  text-align: center; 
+}
+  
+#shop {
+  height: 450px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
 }
 
-#contact {
-  text-align: center;
-  padding: 50px;
+#backpack-image {
+  padding: 10px;
+}
+
+#shop-button {
+  width: 350px;
+  background-color: #f7b500;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  font-family: oswald, sans-serif;
+  font-size: 20px;
 }
 
 #submit {
   margin: 10px;
-  background-color: #FFE000;
+  background-color: #f7b500;
   border: none;
   padding: 7px;
+  font-weight: bold;
+  font-family: oswald, sans-serif;
+  font-size: 15px;
 }
 
 
 #form {
+  height: 300px;
   display: flex;
   align-items: center;
   flex-direction: column;
   background-color: black;
   color: white;
-  padding-top: 20px;
-  width: 100%;
-   
+  padding-top: 30px;   
 }
+
+
 
 #email {
   width: 390px;
-  padding: 5px;
+  padding: 8px;
   font-family: oswald, sans-serif;
   text-align: center;
   border: none;
 }
 
+#contact {
+  text-align: center;
+  padding: 30px;
+}
 #contact-link {
   color:white;
 }
+
+a:hover {
+    color:#e88200;
+}
+
+@media (max-width: 650px) {
+  #image-1, #image-3 {
+    display:none;
+  }
+}
+
