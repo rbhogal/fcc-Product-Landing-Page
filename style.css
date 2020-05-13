@@ -99,7 +99,7 @@ a:visited {
 
 #shop-button {
   width: 350px;
-  background-color: #f7b500;
+  background-color: #e88200;
   border: none;
   padding: 10px;
   font-weight: bold;
@@ -109,7 +109,7 @@ a:visited {
 
 #submit {
   margin: 10px;
-  background-color: #f7b500;
+  background-color: #e88200;
   border: none;
   padding: 7px;
   font-weight: bold;
@@ -127,7 +127,6 @@ a:visited {
   color: white;
   padding-top: 30px;   
 }
-
 
 
 #email {
